@@ -8,6 +8,8 @@ Simulating the chaotic motion of the double-pendulum system.
 Use [fpm](https://github.com/fortran-lang/fpm) to build and run the project. 
 
 ``` 
+git clone https://github.com/habtie-phys/double_pendulum.git
+cd double_pendulum
 fpm build 
 fpm run
 

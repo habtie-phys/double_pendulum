@@ -3,7 +3,7 @@
 # Licence: MIT
 
 # gnuplot global setting
-set term wxt size 640,480 enhanced font "verdana,10" title "ogpf libray: Rev. 0.22 of March 9th, 2018"
+set term wxt size 640,480 enhanced font "arial,12" title "ogpf libray: Rev. 0.22 of March 9th, 2018"
 
 # ogpf extra configuration
 # -------------------------------------------
@@ -34,6 +34,9 @@ set style data linespoints
 # plot scale
  
 # Annotation: title and labels
+set title "lower pendulum" font ","
+set xlabel " Time (s)" font ","
+set ylabel " y" font ","
  
 # axes setting
 

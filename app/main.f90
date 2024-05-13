@@ -35,6 +35,9 @@ program double_pendulum_test
     ! 
     y1 = -l1*cos(S(1, :))
     y2 = -l1*cos(S(1, :))-l2*cos(S(2, :))
-    ! 
+    !
+    call gp%xlabel(' Time (s)')
+    call gp%ylabel(' y')
+    call gp%title('lower pendulum') 
     call gp%plot(real(a=t, kind=wp), real(a=y2, kind=wp), 'with lines lt 1 lw 2')
 end program double_pendulum_test

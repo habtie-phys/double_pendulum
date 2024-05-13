@@ -13,3 +13,5 @@ fpm run
 
 ```
 Plotting is done using the [ogpf](https://github.com/kookma/ogpf) library
+
+![figure](figures/figure1.png)

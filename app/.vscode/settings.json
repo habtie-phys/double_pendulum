@@ -1,0 +1,10 @@
+{
+    "fortran.linter.includePaths": [
+        "./**",
+        "../src/",
+        "../app/",
+        "../build/",
+        "../test/"
+
+    ]
+}

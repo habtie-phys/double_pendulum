@@ -2,6 +2,7 @@ module double_pendulum
     implicit none
     real, parameter :: g = 9.81
     real :: m1, l1, m2, l2
+    
     contains
     function f(S)
         implicit none

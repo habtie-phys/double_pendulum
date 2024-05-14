@@ -11,6 +11,7 @@ program double_pendulum_test
     real, parameter :: theta1_0 = 15., theta2_0 = 5.
     ! set initial angular velocities for each pendulum
     real, parameter :: w1_0 = 0.,  w2_0 = 0. 
+    ! set initial state of the system
     real :: S0(4) = [d2r*theta1_0, d2r*theta2_0, w1_0, w2_0]
     real :: S(4, n), t(n)
     real :: x1(n), x2(n), y1(n), y2(n)

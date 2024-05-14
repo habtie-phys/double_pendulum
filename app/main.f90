@@ -6,7 +6,7 @@ program double_pendulum_test
     type(gpf) :: gp
     real, parameter :: d2r = 3.14159265/180.
     ! set number of iterations
-    integer, parameter :: n = 2000
+    integer, parameter :: n = 2500
     ! set initial angular positions for each pendulum
     real, parameter :: theta1_0 = 15., theta2_0 = 5.
     ! set initial angular velocities for each pendulum

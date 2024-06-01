@@ -8,7 +8,7 @@ program double_pendulum_test
     ! set number of iterations
     integer, parameter :: n = 2500
     ! set initial angular positions for each pendulum
-    real, parameter :: theta1_0 = 15., theta2_0 = 5.
+    real, parameter :: theta1_0 = 15., theta2_0 = 5.5
     ! set initial angular velocities for each pendulum
     real, parameter :: w1_0 = 0.,  w2_0 = 0. 
     ! set initial state of the system
@@ -22,7 +22,7 @@ program double_pendulum_test
     m1 = 0.5 
     l1 = 0.3
     !mass and length of the lower pendulum
-    m2 = 1.
+    m2 = 2.
     l2 = 0.6
     ! 
     t(1) = 0
